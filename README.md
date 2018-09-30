@@ -22,3 +22,6 @@
  
 ```
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<center style='color:red'> Powered by   [Edward](mailto:lxzsrr@163.com "Edward")</center >
