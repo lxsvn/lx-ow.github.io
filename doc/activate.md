@@ -1,11 +1,11 @@
-# 排重
+# 激活
 
-** 查询指定IDFA & Appid  是否已完成过任务 **
+** 用户在完成任务，领取奖励后，调用激活 **
 
 
 **请求URL：** 
 
-- ` https://ow-api.houputech.com/idfa/distinct `
+- ` https://ow-api.houputech.com/idfa/activate `
   
 **请求方式：**
 - POST 
@@ -18,6 +18,8 @@
 |appsecret |是  |string | 授权密钥。由蚂蚁提供。    |
 |appid     |是  |string | 任务的appid。对应appstore appid。    |
 |idfa     |是  |string | idfa   | 
+
+
 
 
  **返回示例**
@@ -33,5 +35,5 @@
 
 |参数名|类型|说明|
 |:-----  |:-----|-----  |
-|code |string   |返回码。1000：排重通过(未做过)。其他为排重未通过，见errmsg |
+|code |string   |返回码。1000：激活成功。其他为激活失败，见errmsg |
 |errmsg |string   |错误信息  | 
