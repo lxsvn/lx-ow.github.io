@@ -18,6 +18,7 @@
 |appsecret |是  |string | 授权密钥。由蚂蚁提供。    |
 |appid     |是  |string | 任务的appid。对应appstore appid。    |
 |idfa     |是  |string | idfa   | 
+|callback     |否  |string | 回调地址。回调模式的任务，需传此参数，且需要UrlEncode。   | 
 
 
  **返回示例**
